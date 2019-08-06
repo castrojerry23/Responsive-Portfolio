@@ -1,0 +1,128 @@
+body {
+    padding: 1.8em;
+    background-image: url('../images/email-pattern.png');
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+}
+header {
+    background-color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+   width: 80%;
+   margin: auto;
+   overflow: hidden;
+}
+
+
+nav {
+    float: right;
+    color: gray;
+    margin-top: 40px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    position: relative;
+}
+
+nav a{
+    color: #666666;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    height: 80px;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 80px;
+    float: left;
+}
+
+h2 {
+color: #4aaaa5;
+}
+
+.bio-container {
+    clear: both;
+    margin: 0 auto;
+    max-width: 960px;
+    margin-bottom: 10%;
+    float: center;
+    background-color: #ffffff;
+}
+
+#obligatory-photo {
+    float: left;
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.input-fields {
+    padding: 0 30px;
+}
+
+.input-fields .items {
+    width: 100%;
+    padding: 15px;
+}
+
+.input-fields .items .label {
+    display: block;
+    font-size: 16px;
+    color: #666666;
+}
+
+.input-fields .items .input,
+.input-fields .items .text-area{
+    background: transparent;
+    border: 0;
+    border: 1px solid #666666;
+    width: 100%
+}
+
+.submit {
+    margin: 0 30px;
+    text-align: center;
+    background: #4aaaa5;
+    color: #ffffff;
+
+}
+
+footer {
+    clear: both;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: #666666;
+    height: 30px;
+    border-top: 8px solid #4aaaa5;
+  }
+
